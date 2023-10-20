@@ -768,12 +768,41 @@ strong {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+}
+
+.dvpodcast img {
+  width: 80vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .podcast {
   width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
+
+/*---------------------------------------
+  VIDEO              
+-----------------------------------------*/
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 
 /*---------------------------------------
   CUSTOM FORM               
@@ -1017,6 +1046,29 @@ strong {
 
   h5 {
     font-size: 20px;
+  }
+
+  .dvpodcast {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .dvpodcast img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .podcast {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
   }
 }
 
