@@ -812,6 +812,8 @@ strong {
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
  
 }
 
@@ -827,10 +829,8 @@ strong {
 .site-footer-bottom {
   border-top: 1px solid #1f1c1c;
   margin-top: 60px;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  align-content: center;
+  
 }
 
 .site-footer-title {
@@ -839,7 +839,7 @@ strong {
 }
 
 .chtsd-footer img {
-  width: 50%;
+  width: 90%;
   float: right;
 }
 
